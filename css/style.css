@@ -48,9 +48,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 916px;
-    width: 1440px;
+    width: 100%;
     left: 0px;
     top: 1px;
+    margin-right: 8px;
+  }
+  .title p{
+    /* Primary Text */
+
+width: 920px;
+height: 98px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #344563;
+
+
   }
 
    .title h1
