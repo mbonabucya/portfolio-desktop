@@ -11,7 +11,6 @@
   .navbar a p {
     float: left;
     color: #6070FF;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -45,10 +44,22 @@
   }
 
   .headline{
-      
+    background-image: url("../image/Header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 916px;
+    width: 1440px;
+    left: 0px;
+    top: 1px;
   }
 
-  .headline .title
+   .title h1
   {
-
+    font-family:'Poppins',Arial, Helvetica, sans-serif;
+    color:#091E42;
+    width: 920px;
+    height: 122px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 359px 260px 435px 260px;
   }
