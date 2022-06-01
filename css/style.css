@@ -10,7 +10,7 @@
   }
   .navbar a p {
     float: left;
-    color: blue;
+    color: #6070FF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -19,6 +19,8 @@
     line-height: 1.2;
     margin-left: 155px;
     margin-top: 25px;
+    font-weight: 700;
+    height: 20px;
   }
   
   .navbar-list {
@@ -29,14 +31,24 @@
   
   .navbar-list a {
     float: left;
-    color: blue;
+    color:#344563;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
+
     font-family: Poppins, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .navbar-list .icon {
     display: none;
+  }
+
+  .headline{
+      
+  }
+
+  .headline .title
+  {
+
   }
