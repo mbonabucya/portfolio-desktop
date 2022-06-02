@@ -121,7 +121,7 @@ margin-left: 260px;
   border-radius: 8px;
   margin-left: 42px;
   margin-right: 42px;
-  margin-top: 24px;
+  margin-top: 142px;
   align-items: center;
 }
 .nature
@@ -252,15 +252,197 @@ margin-top: 32px;
 
 .see-project
 {
-  width: 140px;
-  height:84px;
+  width: 160px;
+  height:53px;
   font-size: 17px;
   margin-top: 48px;
-  border: 1px solid #DFE1E6;
-  border-radius:24px ;
+  border-radius:8px ;
   color: #396DF2;
   background-color:#FFFFFF;
-  font-family: 'Poppins';
   letter-spacing: 0.03em;
-  font-weight: 500px;
+  border: 1px solid #396df2;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+.about-me
+{
+  background-image: url("../Image/about-myself.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-left: 42px;
+  margin-top: 142px;
+  margin-bottom: 42px;
+}
+.about-header h1{
+/* Primary Text */
+
+width: 447px;
+height: 114px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+align-items: center;
+color: #091E42;
+}
+.about-header
+{
+  display: flex;
+  flex-direction: column;
+}
+.about-header p{
+  /* Primary Text */
+
+width: 447px;
+height: 102px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+}
+#About-connect
+{
+  /* LET’S CONNECT */
+
+width: 117px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+}
+
+.about-header ul li{
+  float:left;
+  margin-right: 32px;
+  margin-top: 20px;
+  /* Text */
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #6B778C;
+list-style: none;
+}
+.resume
+{
+  width: 160px;
+  height:53px;
+  font-size: 17px;
+  margin-top: 48px;
+  border-radius:8px ;
+  color: #396DF2;
+  background-color:#FFFFFF;
+  letter-spacing: 0.03em;
+  border: 1px solid #396df2;
+  padding: 10px;
+  font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+.about-header button:hover
+{
+  width: 160px;
+  height:53px;
+  font-size: 17px;
+  margin-top: 48px;
+  border-radius:8px ;
+  color: #FFFFFF;
+  background-color:blue;
+  letter-spacing: 0.03em;
+  border: 1px solid #396df2;
+  padding: 10px;
+  font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.see-project:hover
+{
+  width: 160px;
+  height:53px;
+  font-size: 17px;
+  margin-top: 48px;
+  border-radius:8px ;
+  color: #FFFFFF;
+  background-color:blue;
+  letter-spacing: 0.03em;
+  border: 1px solid #396df2;
+  padding: 10px;
+  font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#facebook-btn
+{
+  width: 160px;
+  height:53px;
+  font-size: 17px;
+  margin-top: 48px;
+  border-radius:8px ;
+  color: #FFFFFF;
+  background-color:blue;
+  letter-spacing: 0.03em;
+  border: 1px solid #396df2;
+  padding: 10px;
+  font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+
+}
+#facebook-btn:hover
+{
+  width: 160px;
+  height:53px;
+  font-size: 17px;
+  margin-top: 48px;
+  border-radius:8px ;
+  color: #396DF2;
+  background-color:#FFFFFF;
+  letter-spacing: 0.03em;
+  border: 1px solid #396df2;
+  padding: 10px;
+  font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+
+}
+.skills
+{
+  display: flex;
+  flex-direction: column;
+  margin-left:37px;
+}
+
+.skills ul li{
+  float: left;
+  width: 122px;
+  height:120px;
+  margin-left: 12px;
+  align-items: center;
+  background-color:#F7F7F9 ;
+}
+.front-end
+{
+display: flex;
+flex-direction: column;
+gap: 10px;
 }
