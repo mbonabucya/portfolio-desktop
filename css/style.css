@@ -98,6 +98,78 @@
   margin-top: 0;
 }
 
+.card
+{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border:1px solid #DFE1E6 ;
+  border-radius: 8px;
+  margin-left: 42px;
+  margin-right: 42px;
+  margin-top: 142px;
+  align-items: center;
+
+}
+.nature
+{
+  background-image: url("../Image/nature.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.arts{
+  background-image: url("../Image/arts.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+
+}
+.facebook
+{
+  background-image: url("../Image/blog_drbl.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+
+}
+.uber
+{
+  background-image: url("../Image/uber.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 630px) {
   .navbar-list .icon {
@@ -222,7 +294,8 @@ margin-left: 260px;
 
 .works-container
 {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 .card
 {
@@ -235,10 +308,6 @@ margin-left: 260px;
   margin-right: 42px;
   margin-top: 142px;
   align-items: center;
-}
-.card:hover
-{
-
 }
 .nature
 {
