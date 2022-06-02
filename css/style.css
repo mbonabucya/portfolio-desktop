@@ -52,7 +52,13 @@
     left: 0px;
     top: 1px;
     margin-right: 8px;
+    display:grid;
     
+  }
+  .title{
+    margin-left: 260px;
+    margin-top: 359px;
+
   }
 .title p{
 width: 920px;
@@ -73,11 +79,12 @@ margin-left: 260px;
     width: 920px;
     height: 122px;
     font-weight: 700;
-    line-height: 60px;
+
+    margin-left: 260px;
   }
 .social-media
 {
- margin-left:100px;
+ margin-left:260px;
 }
 
 #connect {
@@ -89,8 +96,171 @@ margin-left: 260px;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-top:12px ;
 }
 .social-media {
   display: flex;
   gap: 20px;
+  margin-top:16px ;
+}
+
+.social-media li{
+  list-style: none;
+}
+
+.works-container
+{
+  display: grid;
+}
+.card
+{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  border:1px solid #DFE1E6 ;
+  border-radius: 8px;
+  margin-left: 42px;
+  margin-right: 42px;
+  margin-top: 24px;
+  align-items: center;
+}
+.nature
+{
+  background-image: url("../Image/nature.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+.arts{
+  background-image: url("../Image/arts.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+
+}
+.facebook
+{
+  background-image: url("../Image/blog_drbl.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+
+}
+.uber
+{
+  background-image: url("../Image/uber.png");
+  width: 544px;
+  height: 448px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+.card-description
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-left: 48px;
+}
+.card-description h1
+{
+  /* Project Title */
+
+width: 496px;
+height: 46px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #091E42;
+}
+
+.card-description ul li
+{
+  float:left;
+  margin-right: 32px;
+  margin-top: 20px;
+  /* Text */
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #6B778C;
+
+}
+.canopy{
+  list-style: none;
+}
+.canopy p
+{
+height: 24px;
+font-family: 'Poppins','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #344563;
+
+}
+.description
+{
+  /* Primary Text */
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+margin-top: 32px;
+}
+.technology li
+{
+  list-style: none;
+
+}
+.technology li p
+{
+  color:#6070FF;
+  background-color:#EBEBFF;
+  padding:4px 12px;
+  border-radius:8px ;
+  text-align: center;
+}
+
+.see-project
+{
+  width: 140px;
+  height:84px;
+  font-size: 17px;
+  margin-top: 48px;
+  border: 1px solid #DFE1E6;
+  border-radius:24px ;
+  color: #396DF2;
+  background-color:#FFFFFF;
+  font-family: 'Poppins';
+  letter-spacing: 0.03em;
+  font-weight: 500px;
 }
