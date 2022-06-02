@@ -423,6 +423,8 @@ list-style: none;
   font-style: normal;
   font-weight: bold;
   line-height: 24px;
+  
+
 
 }
 .skills
@@ -432,7 +434,7 @@ list-style: none;
   margin-left:37px;
 }
 
-.skills ul li{
+.language-skills ul li{
   float: left;
   width: 122px;
   height:120px;
@@ -440,12 +442,72 @@ list-style: none;
   align-items: center;
   background-color:#F7F7F9 ;
 }
+.skills-header
+{
+  display: flex;
+}
+.skills-header h1{
+  width:582px;
+  margin-right: 30px;
+}
+.skills-header img
+{
+  width: 12px;
+  height: 12px;
+
+}
+
+.language-skills
+{
+  margin-top:36px;
+}
+
 .front-end
 {
+list-style: none;
 display: flex;
 flex-direction: column;
-gap: 10px;
+
 }
+.language-skills ul 
+{
+  height: 120px;
+  display: flex;
+}
+.other-skills
+{
+  display: flex;
+  flex-direction: column;
+  margin-top:36px ;
+  gap:20px;
+
+
+
+}
+.frame-work
+{
+  display: flex;
+  flex-direction: row; 
+  border-bottom: 1px solid #dfe1e6;
+}
+.frame-work img
+{
+  width: 12px;
+  height: 12px;
+}
+
+.frame-work h4
+{
+width: 582px;
+height: 24px;
+margin-right: 30px;
+}
+
+
+
+
+
+
 
 /* Contact me */
 
@@ -568,6 +630,7 @@ line-height: 24px;
 color: #B3BAC5;
 }
 @media screen {
-  
+
+
   
 }
